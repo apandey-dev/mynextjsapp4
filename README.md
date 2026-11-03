@@ -6,7 +6,7 @@ A modern, production-grade personal finance and expense management platform buil
 
 ## Live Links & Repository
 
-- **Live Production Deployment**: [https://expense-manager-hub.vercel.app](https://expense-manager-hub.vercel.app)
+- **Live Production Deployment**: [https://expense-manager-hub-five.vercel.app](https://expense-manager-hub-five.vercel.app)
 - **Public GitHub Repository**: [https://github.com/apandey-dev/expense-manager-capstone](https://github.com/apandey-dev/expense-manager-capstone)
 
 ---

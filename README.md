@@ -7,7 +7,7 @@ A modern, production-grade personal finance and expense management platform buil
 ## Live Links & Repository
 
 - **Live Production Deployment**: [https://expense-manager-hub-five.vercel.app](https://expense-manager-hub-five.vercel.app)
-- **Public GitHub Repository**: [https://github.com/apandey-dev/expense-manager-capstone](https://github.com/apandey-dev/expense-manager-capstone)
+- **Public GitHub Repository**: [https://github.com/apandey-dev/mynextjsapp4](https://github.com/apandey-dev/mynextjsapp4)
 
 ---
 
@@ -117,7 +117,7 @@ Create a `.env.local` file based on `.env.example`:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/apandey-dev/expense-manager-capstone.git
+   git clone https://github.com/apandey-dev/mynextjsapp4.git
    cd expense-manager-capstone
    ```
 

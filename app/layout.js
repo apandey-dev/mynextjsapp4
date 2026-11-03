@@ -1,0 +1,32 @@
+import { Geist, Geist_Mono } from 'next/font/google';
+import './globals.css';
+import { AuthProvider } from '@/context/AuthContext';
+
+const geistSans = Geist({
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
+});
+
+const geistMono = Geist_Mono({
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
+});
+
+export const metadata = {
+  title: 'FinLedger — Full-Stack Expense Manager & Financial Analytics',
+  description:
+    'Production-ready SaaS expense management platform built with Next.js App Router, Prisma ORM, and Neon Serverless PostgreSQL.',
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    >
+      <body className="min-h-full flex flex-col bg-slate-50 text-slate-800 font-sans">
+        <AuthProvider>{children}</AuthProvider>
+      </body>
+    </html>
+  );
+}
